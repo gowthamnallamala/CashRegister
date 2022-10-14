@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #618685;
+  /* background-color: #d5f4e6; */
+}
+
+.heading{
+  text-align: center;
+}
+
+.row{
+    border-radius: 25px;
+    padding: 2rem;
+    display: flex;
+    height: 50vh;
+    /* border: 3px solid black; */
+    background-color: #d5f4e6
+}
+
+  .container-calculation{
+    width: 50%;
+    margin: 2px;
+    padding: 2px;
+    display: block;
+
+    /* border: 1px solid black; */
+  }
+
+  .container-notes{
+    padding: 0 100px 0px 100px;
+    display: flex;
+    width: 50%;
+    /* border:1px solid black; */
+  }
+
+ 
+
+.err-msg,.rfd-amt-err {
+  padding:3px;
+    display:inline-block;
+    color: red;
+    background-color: #d5f4e6;
+    border-radius: 5px;
+}
+.rfd-amt{
+  margin: 5px;
+  display: inline-block;
+  color: black;
+  background-color: #d5f4e6;
+  border-radius: 5px;
+}
+label{
+  /* color: #fefbd8; */
+    display: block;
+}
+
+#bill-amount,#csh-amt{
+    border: 2px solid #618685;
+}
+
+
+button{
+  cursor: pointer;
+    margin-top: 10px;
+    border-radius:10px ;
+    /* border-radius: 20px 100px 20px 100px; */
+    display: block;
+    width: 80px;
+    height: 30px;
+}
+
+td {
+  border: 2px solid #618685;
+  color:black;
+  padding: 5px;
+}
+
+th{
+  border:2px solid black;
+  /* color: #fefbd8; */
+  padding: 8px;
+
+}

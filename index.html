@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Cash return Calculator</title>
+</head>
+<body>
+    <header class="heading">
+        <h1>Cash Register Manager</h1>
+        <p>Enter the bill amount and cash given by the Customer and know minimum number of notes to return</p>
+    </header>
+    <div class="row">
+    <div class="container-calculation column">
+        <label for="bill-amount">Bill Amount:</label>
+        <input id="bill-amount" type="number">
+        <button id="nxt-btn">Next</button>
+        <small class="err-msg"></small>
+        
+        <div id="hide">
+        <label for="csh-amt" >Cash Amount</label>
+        <input id="csh-amt" type="number" ></input>
+        <button id="cal-btn" >Calculate</button>
+        <p class="rfd-amt-err"></p>
+    </div>
+    </div>
+
+    <div class="container-notes column" >
+        <table class="tables-container " id="notes-table">
+            <tr>
+               <th>Notes</th>
+            </tr>
+        </table>
+        <table class="tables-container " id="notes-count">
+            <tr>
+               <th>Notes Count</th>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+<script src="app.js" type="text/javascript"></script>
+</html>
